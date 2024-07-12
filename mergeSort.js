@@ -19,15 +19,13 @@ const merge = (left, right) => {
       result.push(right.shift());
     }
   }
-
-  leftIndex = 0;
-  rightIndex = 0;
+ß
   while (left.length > 0) {
-    result.push(left[leftIndex]);
+    result.push(left[0]);
     left.shift();
   }
   while (right.length > 0) {
-    result.push(right[rightIndex]);
+    result.push(right[0]);
     right.shift();
   }
 
