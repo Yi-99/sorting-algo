@@ -1,3 +1,13 @@
+/**
+ * Time Complexity: O(log n)
+ * Best Case: O(1) Worst Case: O(n)
+ * The size of the list that we are searching gets halved each time we make a comparison.
+ * Space Complexity: O(1)
+ * It only takes one comparison to find the target element.
+ * @param {*} arr 
+ * @param {*} target 
+ * @returns 
+ */
 const binarySearch = (arr, target) => {
   let low = 0, high = arr.length, mid = Math.floor(arr.length / 2)
   while (arr[mid] !== target) {
