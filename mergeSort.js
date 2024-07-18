@@ -1,3 +1,12 @@
+/**
+ * Time Complexity: O(n log n)
+ * Number of times n can be split is log n and each split takes O(n) time
+ * Best Case: O(n log n) Worst Case: O(n log n)
+ * Space Complexity: O(n)
+ * Best Case: O(n) Worst Case: O(n)
+ * @param {} arr 
+ * @returns 
+ */
 const mergeSort = (arr) => {
   const left = arr.slice(0, Math.floor(arr.length / 2));
   const right = arr.slice(Math.floor(arr.length / 2));
@@ -19,7 +28,7 @@ const merge = (left, right) => {
       result.push(right.shift());
     }
   }
-ß
+
   while (left.length > 0) {
     result.push(left[0]);
     left.shift();
