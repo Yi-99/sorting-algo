@@ -1,6 +1,6 @@
 /**
  * Time: O(n^2)
- * Space: O(n)
+ * Space: O(1)
  */
 const insertionSort = (arr) => {
   for (let i = 1; i < arr.length; i++) {
