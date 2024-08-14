@@ -1,0 +1,24 @@
+2024-08-14T18:51:04.629Z - error
+ - Failed parsing config path2024-08-14T18:51:04.664Z - error
+ - Failed parsing config path2024-08-14T18:51:04.678Z - Start Extension 0.4.28 activated for "sorting-algo"
+ - 2024-08-14T18:51:04.844Z - Project is not compatible with extension
+ - 2024-08-14T18:51:04.844Z - 'node_modules' is not installed
+ - 2024-08-14T18:51:04.844Z - Start Dependencies creation
+ - 2024-08-14T18:51:04.866Z - Initializing user
+ - 2024-08-14T18:51:04.868Z - Watching file system.
+ - 2024-08-14T18:51:04.868Z - Starting IPC server
+ - 2024-08-14T18:51:04.868Z - IPC server started
+ - 2024-08-14T18:51:04.868Z - Start Init Coverage Provider
+ - 2024-08-14T18:51:04.868Z - End Init Coverage Provider
+ - 2024-08-14T18:51:04.868Z - End Dependencies creation
+ - 2024-08-14T18:51:04.875Z - Start Panel Provider creation/registration
+ - 2024-08-14T18:51:04.876Z - End Panel Provider creation/registration
+ - 2024-08-14T18:51:04.876Z - Start Dependencies bootstrapping
+ - 2024-08-14T18:51:04.877Z - Auth state changed
+ - 2024-08-14T18:51:04.877Z - No user data found on auth state change
+ - 2024-08-14T18:51:04.884Z - error
+ - Failed parsing config path2024-08-14T18:51:04.885Z - error
+ - Failed parsing config path2024-08-14T18:51:04.888Z - User data is absent
+ - 2024-08-14T18:51:04.888Z - End Dependencies bootstrapping
+ - 2024-08-14T18:51:04.914Z - End Extension activated
+ - 
